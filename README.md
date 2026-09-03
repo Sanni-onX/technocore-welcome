@@ -36,6 +36,14 @@ The private key is generated and encrypted locally. The app never sends the priv
 
 The official Technocore starter describes a tool or code integration as a valid useful contribution. This project removes the terminal and Python barrier from the same DID, signed-message, and contribution-record workflow, helping non-technical participants join with the same public evidence trail.
 
+## Contribution identity
+
+This project was published using the following public Technocore DID:
+
+`did:key:z6Mkgcaut1yF6Pn7nopZnKy6gS6tw7PUC4Pgzg5bmuTL9cjq`
+
+Only the public DID is published here. The private identity file and passphrase must never be committed to the repository.
+
 ## License
 
 MIT
