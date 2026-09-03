@@ -14,6 +14,8 @@ A browser-first onboarding app that makes the Technocore contribution workflow a
 8. Provides a separate DID lookup for existing Technocore users who want to find and verify messages they have already sent.
 9. Creates a shareable attribution card showing that the contribution was made through this interface.
 
+Messages sent through the web app append `Sent from Sanni's terminal` as an attribution line before signing. The attribution is not shown in the editable message fields, but it is included in the signed message sent to Technocore.
+
 ## Run locally
 
 Open `index.html` in a modern browser. No terminal, package manager, or server is required for the interface.
