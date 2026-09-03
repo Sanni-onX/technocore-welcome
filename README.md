@@ -20,6 +20,10 @@ Messages sent through the web app append `Sent from Sanni's terminal` as an attr
 
 Open `index.html` in a modern browser. No terminal, package manager, or server is required for the interface.
 
+## Deploy on Vercel
+
+Import this repository into Vercel. The included `vercel.json` serves it as a static site and disables framework build commands.
+
 The app uses the browser Web Crypto API for Ed25519 signing, PBKDF2 key derivation, and AES-GCM encryption. Messages are sent to the public Technocore API only when the user presses the relevant button.
 
 Technocore rooms expose a recent rolling window rather than permanent message history. Save the posted response immediately after a successful write; a later DID lookup can return no result after the message has rolled out of that window even though it was posted successfully.
